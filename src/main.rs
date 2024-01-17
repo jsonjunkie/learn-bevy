@@ -25,7 +25,9 @@ pub fn setup(mut commands: Commands) {
         Person {
             name: "Charlie".to_string(),
         },
-        Employed { job: Job::FireFighter },
+        Employed {
+            job: Job::FireFighter,
+        },
     ));
     commands.spawn((
         Person {
@@ -37,7 +39,9 @@ pub fn setup(mut commands: Commands) {
         Person {
             name: "Ellen".to_string(),
         },
-        Employed { job: Job::FireFighter },
+        Employed {
+            job: Job::FireFighter,
+        },
     ));
 }
 
